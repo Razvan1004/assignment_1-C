@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+int a,b,c,d,e,min1,max1;
+scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+max1 = a;
+if(max1 < b)max1 = b;
+if(max1 < c)max1 = c;
+if(max1 < d)max1 = d;
+if(max1 < e)max1 = e;
+min1 = a;
+if(min1 > b)min1 = b;
+if(min1 > c)min1 = c;
+if(min1 > d)min1 = d;
+if(min1 > e)min1 = e;
+printf("%d %d\n",min1,max1);
+}
