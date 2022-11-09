@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+int x,y,sum,sqr;
+float avg;
+scanf("%d%d",&x,&y);
+sum = x + y;
+avg = x + y;
+avg /= 2.0;
+sqr = x * x + y * y;
+printf("%d %f %d\n",sum,avg,sqr);
+}
